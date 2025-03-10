@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Kicks - Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+         <div class="logo-box">
+            <h1 class="logo">Elite Kicks</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review-card">
+            <p>⭐⭐⭐⭐⭐ - "Best sneakers ever! Great quality and fast shipping." - <strong>John Doe</strong></p>
+        </div>
+        <div class="review-card">
+            <p>⭐⭐⭐⭐ - "Super comfortable and stylish. Will buy again!" - <strong>Jane Smith</strong></p>
+        </div>
+        <div class="review-card">
+            <p>⭐⭐⭐⭐⭐ - "Amazing service and top-notch products. Highly recommend!" - <strong>Chris Evans</strong></p>
+        </div>
+
+        <h3>Leave a Review</h3>
+        <form id="review-form">
+            <input type="text" id="review-name" placeholder="Your Name" required>
+            <textarea id="review-message" placeholder="Write your review..." required></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+        
+        <div id="review-list"></div>
+    </section>
+
+</body>
+</html>
+
