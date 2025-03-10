@@ -130,6 +130,11 @@ nav ul li a:hover {
     font-family: 'Lobster', cursive;
 }
 
+.featured .product-card p {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
 /* Products Grid */
 .products-grid {
     display: grid;
@@ -171,6 +176,11 @@ nav ul li a:hover {
 
 .product-card h3 {
     margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.product-card p {
     font-size: 20px;
     font-family: 'Lobster', cursive;
 }
